@@ -48,7 +48,7 @@ _Reply to this message with 1 or 2 to download._`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363302677217436@newsletter',
-                newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐔𝐒𝐈𝐂🎸',
+                newsletterName: 'CASEYRHODES-XMD',
                 serverMessageId: 143
             }
         };
@@ -105,7 +105,7 @@ _Reply to this message with 1 or 2 to download._`;
 
 // MP3 song download
 cmd({ 
-    pattern: "play", 
+    pattern: "song", 
     alias: ["ytdl3", "play"], 
     react: "🎶", 
     desc: "Download YouTube song", 
@@ -149,7 +149,7 @@ _Reply with 1, 2 or 3 to this message to download the format you prefer._`;
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: '120363302677217436@newsletter',
-                newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐔𝐒𝐈𝐂🎸'',
+                newsletterName: 'CASEYRHODES-TECH',
                 serverMessageId: 143
             }
         };

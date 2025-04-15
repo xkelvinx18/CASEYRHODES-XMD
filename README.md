@@ -76,7 +76,7 @@ You will need a session ID to run CASEYRHODES-XMD. Click the button below to obt
 
 ---
 
- <a href="https://deployment-yr-nui9.vercel.app/"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY-NOW-h?color=purple&style=for-the-badge&logo=DEPLOY NOW" width="220" height="38.45"/></a></p>
+ <a href="https://deployment-yr-nui9.vercel.app/"><img title="DEPLOY-NOW" src="https://img.shields.io/badge/DEPLOY-NOW-h?color=purple&style=for-the-badge&logo=DEPLOY NOW" width="220" height="38.45"/></a></p>
 
 ---
 

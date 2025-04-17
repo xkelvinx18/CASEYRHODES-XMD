@@ -11,30 +11,31 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ 👑 Owner : *${config.OWNER_NAME}*
-┃★│ 🤖 Baileys : *Multi Device*
-┃★│ 💻 Type : *NodeJs*
-┃★│ 🚀 Platform : *Heroku*
-┃★│ ⚙️ Mode : *[${config.MODE}]*
-┃★│ 🔣 Prefix : *[${config.PREFIX}]*
-┃★│ 🏷️ Version : *4.0.0 Bᴇᴛᴀ*
-┃★╰──────────────
+        const menuCaption = `╭━━━《*𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃*》 ━━━┈⊷
+┃❍╭──────────────
+┃❍│ *Usᴇʀ* : ${config.OWNER_NAME}
+┃❍⁠│ *ʙᴀɪʟᴇʏs* : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
+┃❍│ *𝖳ʏᴘᴇ* : 𝐍𝐨𝐝𝐞𝐣𝐬
+┃❍│ *𝖣ᴇᴠᴇʟᴏᴘᴇʀ* : 𝖢ᴀsᴇʏʀʜᴏᴅᴇs 👻
+┃❍⁠│ *ᴘʟᴀᴛғᴏʀᴍ* : 𝐇𝐞𝐫𝐨𝐤𝐮
+┃❍│ *𝖬ᴏᴅᴇ*  : [${config.MODE}]
+┃❍│ *𝖯ʀᴇғɪx* : [${config.PREFIX}]
+┃❍⁠│ *𝖵ᴇʀsɪᴏɴ* : 4.0.0 Bᴇᴛᴀ
+┃❍╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *Menu List* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈│1️⃣  📥 *Download Menu*
-┃◈│2️⃣  👥 *Group Menu*
-┃◈│3️⃣  😄 *Fun Menu*
-┃◈│4️⃣  👑 *Owner Menu*
-┃◈│5️⃣  🤖 *AI Menu*
-┃◈│6️⃣  🎎 *Anime Menu*
-┃◈│7️⃣  🔄 *Convert Menu*
-┃◈│8️⃣  📌 *Other Menu*
-┃◈│9️⃣  💞 *Reactions Menu*
-┃◈│🔟  🏠 *Main Menu*
-┃◈╰───────────┈⊷
+╭━━〔 *𝐌𝐄𝐍𝐔 𝐋𝐈𝐒𝐓* 〕━━┈⊷
+┃❍╭─────────────·๏
+┃❍│1️⃣  🔥 ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ
+┃❍│2️⃣  👥 ɢʀᴏᴜᴘ ᴍᴇɴᴜ
+┃❍│3️⃣  😄 ғᴜɴ ᴍᴇɴᴜ
+┃❍│4️⃣  👑 ᴏᴡɴᴇʀ ᴍᴇɴᴜ
+┃❍│5️⃣  🤖 ᴀɪ ᴍᴇɴᴜ
+┃❍│6️⃣  🎎 ᴀɴɪᴍᴇ ᴍᴇɴᴜ
+┃❍│7️⃣  🔄 ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
+┃❍│8️⃣  📌 ᴏᴛʜᴇʀ ᴍᴇɴᴜ
+┃❍│9️⃣  💞 ʀᴇᴀᴄᴛɪᴏɴ ᴍᴇɴᴜ
+┃❍│🔟  🏠 ᴍᴀɪɴ ᴍᴇɴᴜ
+┃❍╰───────────┈⊷
 ╰──────────────┈⊷
 > ${config.DESCRIPTION}`;
 
@@ -43,8 +44,8 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363354023106228@newsletter',
-                newsletterName: config.OWNER_NAME,
+                newsletterJid: '120363302677217436@newsletter',
+                newsletterName:'CASEYRHODES-XMD 👻' ,
                 serverMessageId: 143
             }
         };
@@ -55,7 +56,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/7zfdcq.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/52dotx.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -76,7 +77,7 @@ cmd({
             try {
                 await new Promise(resolve => setTimeout(resolve, 1000)); // Small delay after image
                 await conn.sendMessage(from, {
-                    audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+                    audio: { url: 'https://files.catbox.moe/mwr90o.mp3' },
                     mimetype: 'audio/mp4',
                     ptt: true,
                 }, { quoted: mek });

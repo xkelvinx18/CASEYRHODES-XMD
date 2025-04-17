@@ -11,7 +11,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const menuCaption = `╭━━━《 *𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃* 》 ━━━┈⊷
+        const menuCaption = `╭━━━《*𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃*》 ━━━┈⊷
 ┃❍╭──────────────
 ┃❍│ *Usᴇʀ* : ${config.OWNER_NAME}
 ┃❍⁠│ *ʙᴀɪʟᴇʏs* : 𝐌𝐮𝐥𝐭𝐢 𝐝𝐞𝐯𝐢𝐜𝐞
@@ -37,7 +37,6 @@ cmd({
 ┃❍│🔟  🏠 ᴍᴀɪɴ ᴍᴇɴᴜ
 ┃❍╰───────────┈⊷
 ╰──────────────┈⊷
-📜 *ʀᴇᴘʟʏ ᴀ ᴄᴀᴛᴇɢᴏʀʏ ᴡɪᴛʜ ɪᴛs ɴᴜᴍʙᴇʀ*  
 > ${config.DESCRIPTION}`;
 
         const contextInfo = {
@@ -425,7 +424,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/7zfdcq.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/52dotx.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },

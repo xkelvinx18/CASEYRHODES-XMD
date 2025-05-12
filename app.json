@@ -1,11 +1,14 @@
 {
-  "name": "KHAN-MD",
-  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
-  "logo": "https://raw.githubusercontent.com/JawadYT36/KHAN-DATA/refs/heads/main/logo/dj.jpg",
-  "keywords": ["KHAN-MD"],
-  "success_url": "/",
+  "name": "CASEYRHODES-XMD",
+  "description": "Javascript WhatsApp bot made by CASEYRHODES.",
+  "keywords": ["CASEYRHODES-XMD"],
+  
+  
+  "logo": "https://files.catbox.moe/52dotx.jpg`",
+  "repository": "https://github.com/caseyweb/CASEYRHODES-XMD",
+  "succes_url": "/",
 
-    "stack": "container",
+  "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
@@ -13,12 +16,18 @@
       "value": ""
     },  
     
-    "STICKER_NAME": {
-      "description": "type your sticker pack name.",
+    "ALIVE_IMG": {
+      "description": "paste your image url if you don't have you can use this public url.",
       "required": false,
-      "value": "KHAN-MD"
+      "value": "https://files.catbox.moe/52dotx.jpg`"
     }, 
-      
+    
+    "LIVE_MSG": {
+      "description": "paste your alive message hear.",
+      "required": false,
+      "value": "> CASEYRHODES-XMD IS ACTIVE AND ALIVE⚡"
+    },
+    
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
       "required": false,
@@ -64,42 +73,34 @@
       "value": "true"
     }, 
 
-    "AUTO_STATUS_REACT": {
-      "description": "make it true for automatic status reaction or like.",
-      "required": true,
-      "value": "true"
-    }, 
-
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
       "required": true,
       "value": "false"
     }, 
 
-    "AUTO_STATUS_MSG": {
+    "AUTO_STATUS__MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY KHAN-MD 🖤*"
-   
-     }, 
-    
+      "value": "*🎉👀 sᴇᴇɴ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ🚀🔥*"
+    }, 
+
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
+      "value": "ᴄᴀsᴇʏʀʜᴏᴅᴇs 🫅"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "92310344XXXX"
-
-    }, 
+      "value": "254112192119"
+ },
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "KHAN-MD"
+      "value": "✦ ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ✦"
 
       }, 
 
@@ -109,42 +110,23 @@
       "value": "true"
       
     },
-
-     "ANTI_LINK_KICK": {
-      "description": "Make it true if you want bot auto remove group link.",
-      "required": true,
-      "value": "false"
-      
-    },
     
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
       "required": false,
       "value": "false"
-    },
+    }, 
 
-   "MENTION_REPLY": {
-      "description": "make it true if want mention reply if someone menetion you.",
-      "required": false,
-      "value": "false"
-    },
-    
-    "MENU_IMAGE_URL": {
-      "description": "add url for mention reply and menu if want.",
-      "required": false,
-      "value": "https://files.catbox.moe/7zfdcq.jpg"
-    },
-    
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*"
+      "value": "*© ✦ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ✦*"
     },
 
       "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     
     "AUTO_RECORDING": {
@@ -156,7 +138,7 @@
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
 
     "AUTO_REACT": {
@@ -164,37 +146,27 @@
       "required": false,
       "value": "false"
     },
+
+    "OWNER_REACT": {
+      "description": "Make it true if you only want react on Owner Massages.",
+      "required": false,
+      "value": "true"
+      
+    }, 
     
     "CUSTOM_REACT": {
       "description": "Make it true if you want custom reactions.",
       "required": false,
-      "value": "false"
+      "value": "true"
       
     }, 
     
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
       "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
-    }, 
-    
-    "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat",
-      "required": false,
-      "value": "log"
+      "value": "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍"
     }, 
 
-    "ADMIN_EVENTS": {
-      "description": "make it true if want know who promote or demote a member .",
-      "required": false,
-      "value": "false"
-    },
-
-    "WELCOME": {
-      "description": "make it true if want goodbye and welcome message in groups.",
-      "required": false,
-      "value": "true"
-    },
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",

@@ -166,6 +166,21 @@ You will need a session ID to run CASEYRHODES-XMD. Click the button below to obt
 
 <br>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<h2 align="center">  NOTICE
+</h2>
+   
+## 
+- Not For Sale
+- If A plugin's code is obfuscated , You don't have permission to edit it in any form 
+- Don't Forget to Give Credits If you are using or Reuploading My Plugins/files
+- Have A Good Day
+
+
+  
+<p align="center">
+  
+[![JOIN WHATSAPP CHANNEL](https://raw.githubusercontent.com/Neeraj-x0/Neeraj-x0/main/photos/suddidina-join-whatsapp.png)](https://whatsapp.com/channel/0029VarDt9t30LKL1SoYXy26)
+
+--------
 
 ---
